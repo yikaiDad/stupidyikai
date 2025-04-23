@@ -22,7 +22,7 @@ istream & operator>>(istream & in, Cylinder & cldr)
 }
 
 ostream & operator<<(ostream & out, Cylinder & cldr)
-{
+{ 
     return;
 }
 
