@@ -5,30 +5,25 @@
 #include <cmath> 
 
 double Cylinder :: SurfaceArea(){
-    return;
+    return 2 * radius * radius * M_PI + 2 * radius * M_PI * height;
 }
 
 double Cylinder :: Volume(){
-    return;
+    return height * radius * radius * M_PI;
 }
 
 double Cylinder :: Circumference(){
-    return;
+    return 2 * radius * M_PI;
 }
 
 istream & operator>>(istream & in, Cylinder & cldr)
 {
-    in >> cldr.radius >> cldr.height;
-    return in;
+    return ;
 }
 
 ostream & operator<<(ostream & out, Cylinder & cldr)
 {
-    out << fixed << setprecision(3);
-    out << "Circumference: " << cldr.Circumference() << endl;
-    out << "SurfaceArea: " << cldr.SurfaceArea() << endl;
-    out << "Volume: " << cldr.Volume() << endl;
-    return out;
+    return;
 }
 
 # endif
