@@ -3,17 +3,18 @@
 
 # include "Cylinder.h"
 #include <cmath> 
+#include <iomanip>
 
 double Cylinder :: SurfaceArea(){
-    return;
+    return; //2 * M_PI * radius * radius + 2 * M_PI * radius * height;
 }
 
 double Cylinder :: Volume(){
-    return;
+    return; //M_PI * height * radius * radius;
 }
 
 double Cylinder :: Circumference(){
-    return;
+    return; //2 * M_PI * radius;
 }
 
 istream & operator>>(istream & in, Cylinder & cldr)
